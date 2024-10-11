@@ -3,7 +3,6 @@
 function scoreCheck(scores){
     let finalScores = []
     for(let score of scores){
-        let tempScore = 0
         if(score < 38){
             finalScores = [...finalScores, score]
         } else {
